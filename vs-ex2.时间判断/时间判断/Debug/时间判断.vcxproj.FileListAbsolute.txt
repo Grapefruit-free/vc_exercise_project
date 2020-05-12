@@ -1,0 +1,2 @@
+F:\vs练习代码\vs-ex2.时间判断\时间判断\Debug\时间判断.exe
+F:\vs练习代码\vs-ex2.时间判断\时间判断\Debug\时间判断.pdb
