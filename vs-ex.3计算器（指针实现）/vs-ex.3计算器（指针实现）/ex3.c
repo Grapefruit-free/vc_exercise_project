@@ -4,10 +4,31 @@
 #define USAGE "Usage: calc int op int"
 
 int estUnEntier(char* s) {
-	return 1;
+	if (*s >= 48 && *s <= 57) {
+		return 1;
+	}
+	else {
+		return 0;
+	}
+
 }
 int estUnOperateur(char* s) {
-	return 1;
+	if (*s == '+') {
+		return 1;
+	}
+	if (*s == '-') {
+		return 1;
+	}
+	if (*s == '*') {
+		return 1;
+	}
+	if (*s == '/') {
+		return 1;
+	}
+	else {
+		return 0;
+	}
+	
 }
 int main(int argc, char* argv[]) {
 	if (argc != 4) {
